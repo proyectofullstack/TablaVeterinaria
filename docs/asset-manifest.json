@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.17e7bdf0.css",
+    "main.js": "/static/js/main.2cfc6935.js",
+    "static/js/787.cc5b6790.chunk.js": "/static/js/787.cc5b6790.chunk.js",
+    "static/media/gatos.png": "/static/media/gatos.bca4ae3fd04285b34fc1.png",
+    "static/media/perro5.png": "/static/media/perro5.400f24cda8b1176b365e.png",
+    "static/media/perro.png": "/static/media/perro.95bff95d762473abc5f6.png",
+    "static/media/gatos2.png": "/static/media/gatos2.bfbff00d8dc36684a5cd.png",
+    "static/media/perro1.png": "/static/media/perro1.03e9298f2eaba80de94a.png",
+    "static/media/gatos3.png": "/static/media/gatos3.a37a484c97a5ca68aaae.png",
+    "static/media/gatos4.png": "/static/media/gatos4.489a77bbc67aebf7a504.png",
+    "static/media/Mensaje.png": "/static/media/Mensaje.8454299fb69ccc04e0e7.png",
+    "static/media/footer.png": "/static/media/footer.99b1398ea89c458c06a9.png",
+    "static/media/perro2.png": "/static/media/perro2.4baad031e75030144f2a.png",
+    "static/media/instagram.png": "/static/media/instagram.79535458a8a6d88f81d4.png",
+    "static/media/www.png": "/static/media/www.75d48f8b8f1f90285292.png",
+    "static/media/Banner.png": "/static/media/Banner.e15a63b95b93e2f84d6c.png",
+    "static/media/telefono.png": "/static/media/telefono.7943f54a29a4184599e1.png",
+    "static/media/facebook.png": "/static/media/facebook.01a470d813915c298403.png",
+    "index.html": "/index.html",
+    "main.17e7bdf0.css.map": "/static/css/main.17e7bdf0.css.map",
+    "main.2cfc6935.js.map": "/static/js/main.2cfc6935.js.map",
+    "787.cc5b6790.chunk.js.map": "/static/js/787.cc5b6790.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17e7bdf0.css",
+    "static/js/main.2cfc6935.js"
+  ]
+}
