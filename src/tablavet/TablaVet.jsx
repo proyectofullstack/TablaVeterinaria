@@ -234,7 +234,7 @@ const TablaVet = () => {
               <td>{items.barrio}</td>
               <td>{items.direccion}</td>
               <td>{items.telefono}</td>
-              <td><a href={items.email}><img src={www} alt="" className='ir' title='Ir a la pagina'/></a></td>
+              <td><a href={items.email}><img src={www} alt="" className='ir' title='Ir a la página'/></a></td>
               {/* <td><a href={items.email}>{items.email}</a></td> */}
             </tr>
           ))}
