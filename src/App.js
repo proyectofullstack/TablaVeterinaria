@@ -1,11 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 import TablaVet from './tablavet/TablaVet';
+import Cabecera from './tablavet/Cabecera';
+import Footer from './tablavet/Footer';
 
 function App() {
   return (
     <div className="App">
-     <TablaVet />
+      <Cabecera />
+      <TablaVet />
+      <Footer />
     </div>
   );
 }

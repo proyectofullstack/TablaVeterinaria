@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
-import './TablaVet.css'
+import './TablaVet.css';
+import www from '../images/www.png';
 const TablaVet = () => {
 
     const [sedeVeterinaria, setSedeVeterinaria] = useState([]);
@@ -215,30 +216,31 @@ const TablaVet = () => {
 
   return (
     <>
-      <h3>veterinarias</h3>
-      <hr></hr>
-      <table className="">
-        <thead>
+    <hr />
+      <table className='tabla'>
+        <thead className='titulos'>
           <tr>
             <th>Nombre veterinaria</th>
             <th>Barrio</th>
             <th>Dirección</th>
-            <th>Telefono</th>
+            <th>Teléfono</th>
             <th>Web</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody className='datos'>
           {sedeVeterinaria.map((items) => (
             <tr key={items.nombre}>
               <td>{items.nombre}</td>
               <td>{items.barrio}</td>
               <td>{items.direccion}</td>
               <td>{items.telefono}</td>
-              <td>{items.email}</td>
+              <td><a href={items.email}><img src={www} alt="" className='ir' title='Ir a la pagina'/></a></td>
+              {/* <td><a href={items.email}>{items.email}</a></td> */}
             </tr>
           ))}
         </tbody>
       </table>
+      <hr />
     </>
   )
 }
