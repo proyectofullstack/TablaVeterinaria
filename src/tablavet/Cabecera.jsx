@@ -15,7 +15,7 @@ const Cabecera = () => {
     <>
      <div className='contenedor'>
 		 <div className='cont-banner'>
-			 <img src={banner} alt="" className='img-banner' />
+			 <img src='https://firebasestorage.googleapis.com/v0/b/vetrinaria-37417.appspot.com/o/Banner.png?alt=media&token=6289c461-f702-4b42-a4d1-9eddc832e9e8' alt="" className='img-banner' />
 		 </div>
 		 <div className='titulo'>
 			 <h1>VETERINARIAS</h1>
