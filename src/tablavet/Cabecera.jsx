@@ -1,18 +1,11 @@
 import './Cabecera.css'
-import mensaje from '../images/Mensaje.png';
 
 const Cabecera = () => {
   return (
     <>
      <div className='contenedor'>
-		 <div className='cont-banner'>
-			 <img src='https://firebasestorage.googleapis.com/v0/b/vetrinaria-37417.appspot.com/o/Banner.png?alt=media&token=6289c461-f702-4b42-a4d1-9eddc832e9e8' alt="" className='img-banner' />
-		 </div>
-		 <div className='titulo'>
-			 <h1>VETERINARIAS</h1>
-		 </div>
 		 <div className='mesaje'>
-		 <img src={mensaje} alt="" className='img-mensaje' />
+		 <img src='https://firebasestorage.googleapis.com/v0/b/vetrinaria-37417.appspot.com/o/TuVetExpress-02.jpg?alt=media&token=326d48fe-0fb9-46fc-a94d-399285a33de1' alt="" className='img-mensaje' />
 		 </div>
 		 <div className='carrusel'>
 			 <img src='https://firebasestorage.googleapis.com/v0/b/vetrinaria-37417.appspot.com/o/perro.png?alt=media&token=ae58a699-0a1c-4f87-a9f8-19c3a57e88f3' alt="" className='img-carrusel'/>
