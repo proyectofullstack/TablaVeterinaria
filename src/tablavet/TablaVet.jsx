@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import './TablaVet.css'
+import './TablaVet.css';
 const TablaVet = () => {
 
     const [sedeVeterinaria, setSedeVeterinaria] = useState([]);
@@ -215,30 +215,31 @@ const TablaVet = () => {
 
   return (
     <>
-      <h3>veterinarias</h3>
-      <hr></hr>
-      <table className="">
-        <thead>
+    <hr />
+      <table className='tabla'>
+        <thead className='titulos'>
           <tr>
             <th>Nombre veterinaria</th>
             <th>Barrio</th>
             <th>Dirección</th>
-            <th>Telefono</th>
+            <th>Teléfono</th>
             <th>Web</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody className='datos'>
           {sedeVeterinaria.map((items) => (
             <tr key={items.nombre}>
               <td>{items.nombre}</td>
               <td>{items.barrio}</td>
               <td>{items.direccion}</td>
               <td>{items.telefono}</td>
-              <td>{items.email}</td>
+              <td><a href={items.email}><img src='https://firebasestorage.googleapis.com/v0/b/vetrinaria-37417.appspot.com/o/www.png?alt=media&token=2b0d7234-ff50-46e6-a897-4f6d59669d5b' alt="" className='ir' title='Ir a la página'/></a></td>
+              {/* <td><a href={items.email}>{items.email}</a></td> */}
             </tr>
           ))}
         </tbody>
       </table>
+      <hr />
     </>
   )
 }
